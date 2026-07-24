@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Big Four</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+      <header class="header">
+    <div class="header-top">
+      <div class="logo-container">
+        <div class="logo">The Big Four</div>
+      </div>
+
+      <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+      
+      <label for="menu-toggle" class="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="sub-nav">
+        <a href="index.html" class="nav-item">Home</a>
+        <a href="about.html" class="nav-item">About Us</a>
+        <a href="contact.html" class="nav-item">Contact</a>
+        <a href="rate.html" class="nav-item">Rate our website</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <img src="hondabg4.jpg" alt="Slide 1" class="hero-bg-img slide-1">
+    <img src="yamahabg4.jpg" alt="Slide 2" class="hero-bg-img slide-2">
+    <img src="kawasakibg4.jpg" alt="Slide 3" class="hero-bg-img slide-3">
+    <img src="suzukibg4.jpg" alt="Slide 4" class="hero-bg-img slide-4">
+    
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      
+      <div class="contact-card-container">
+  
+<form action="#success-popup" method="GET">
+  
+  <div class="form-group">
+    <span class="field-title">Name</span>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+  </div>
+
+  <div class="form-group">
+    <span class="field-title">Email</span>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+  </div>
+
+  <div class="form-group">
+    <span class="field-title">Write a Message</span>
+    <textarea id="message" name="message" placeholder="Write a message here" required></textarea>
+  </div>
+
+  <div class="btn-submit-container">
+    <button type="submit" class="submit-button">Submit</button>
+  </div>
+  
+</form>
+
+</div>
+
+<div id="success-popup" class="popup-overlay">
+  <div class="popup-card">
+    <p class="popup-message">
+      Your details have been successfully transmitted. We'll get back to you at full throttle shortly.
+    </p>
+    <a href="contact.html#" class="popup-ok-btn">OK</a>
+  </div>
+</div>
+
+
+</body>
+</html>
